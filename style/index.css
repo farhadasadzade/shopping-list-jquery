@@ -1,0 +1,80 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 138);
+    font-family: 'Oswald', sans-serif;
+}
+
+.shopping__app {
+    width: 500px;
+    box-shadow: 0 0 3px 1px #6c6c6c;
+    margin: 200px auto 0;
+}
+
+.shopping__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #6e6eff;
+    align-items: center;
+}
+
+.shopping__header-title {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.shopping__header-btn {
+    border: 1px solid #ffffff;
+    background: none;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.shopping__header-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.shopping__app-input {
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+    outline: none;
+    line-height: 25px;
+}  
+
+.shopping__app-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    background-color: #07ffc6;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.shopping__app-item:hover .shopping__delete-btn {
+    display: block;
+}
+
+.shopping__delete-btn {
+    height: 100%;
+    width: 55px;
+    font-size: 35px;
+    line-height: 0px;
+    background-color: #ff0000;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
